@@ -1,0 +1,204 @@
+/* Title */
+#title{
+    background-color: #D67BFF;
+    font-family: 'Montserrat';
+    
+}
+.h1top{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: #fff;
+    
+}
+.navbar-brand{
+    color: #fff;
+    font-family: 'playpen sans' ;
+    font-size: 2rem;
+    
+}
+/* using this to stop the effect of inbuilt selector,NOTE:-not using class */
+#titletop{
+    color: #fff;
+}
+
+.button1{
+    margin: 8% 4% 4% 0;
+}
+.navbar{
+    padding:0 0 4.5rem;
+    
+  
+}
+.iconh{
+    color: #D67BFF;
+}
+.iconh:hover{
+    color: #D5A2EC;
+    
+}
+.featrow{
+    padding-right: 100px;
+    padding-left: 100px;
+    background-color: white;
+}
+#features{
+    padding: 7% 10%;
+    text-align: center;
+    position:relative;
+    background-color: #fff;
+    z-index: 2;
+}
+.feath3{
+    font-family: 'montserrat';
+    font-weight: bolder;
+    font-size: 1.65rem;
+    margin-top: 20px;
+}
+.featp{
+    width: 60%;
+    margin:auto;
+    color: #8f8f8f;
+}
+.titleicon{
+    margin-right: 10px;
+}
+
+.title-image{
+    position: absolute;
+    z-index: 0;
+    width: 60%;
+    margin-left: 8.5rem;
+   
+    transform: rotate(-20deg);
+}
+.nav-item{
+   padding: 0 10px 0 10px;
+   font-size: 1.25rem;
+   font-family: montserrat;
+}
+.container-fluid{
+    padding: 3% 10%;
+}
+/* testimonal section */
+#testimonials{
+    
+    margin-bottom: 100px;
+     text-align: center;
+     background-color: #FFB6D9;
+
+}
+.testh2{
+    font-family: 'montserrat';
+    line-height: 3rem;
+    font-weight: bold;
+    color: #fff;
+    
+}
+.testpic{
+    width: 150px;
+    margin-bottom: 112.5px;
+    margin: 20px;
+  
+}
+.testname{
+    color:#fff;
+    font-family: 'ubuntu';
+   
+ 
+   
+}
+.carousel-item{
+    padding: 7% 10% 0 10% ;
+}
+
+/* pricing */
+.card-deck{
+    flex-flow: column;
+}
+
+.pricingh2{
+    font-size:2.35rem;
+    font-family: ubuntu;
+    font-weight: bolder;
+}
+.cardh3{
+    font-family: 'ubuntu';
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+.cardh2{
+    font-family: 'helvetica';
+    font-weight: bolder;
+    font-size: 3rem;
+}
+.pricingp{
+    color: #454545;
+    margin-bottom:  7%;
+}
+#pricing{
+    padding: 0% 10%;
+    text-align: center;
+
+}
+p{
+    color: #454545;
+}
+.cardclass{
+    padding: 3% 2%;
+}
+@media (max-width:1000px){
+    .title-image{
+        transform: rotate(0);
+        position: static;
+        width: 40%;
+        margin-left: 0;
+        padding-top: 20px;
+    }
+    #title{
+        text-align: center;
+    }
+    .button1{
+        margin-top: 5%;
+    }
+    
+}
+
+/* bottomsection */
+#bottom{
+    padding: 7% 15%;
+    background-color: #D67BFF;
+    text-align: center;
+    font-family: 'ubuntu';
+}
+
+.bottomh3{
+   color: #fff;
+   font-weight:800;
+   font-size:2.75rem;
+   width: 70%;
+   margin: auto;
+   padding-bottom: 25px;
+   line-height: 1.5;
+}
+.bottombtn{
+    font-family: 'montserrat';
+    margin: 1.5rem 0.65rem 0 0.65rem;
+    font-weight:500;
+}
+.bottomicon{
+    margin-right: 10px;
+}
+
+/* footer */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+}
+.footicon{
+    margin-left: 7px;
+}
+.copyright{
+    padding-top: 1rem;
+}
+/* END */
