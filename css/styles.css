@@ -17,6 +17,10 @@
     font-size: 2rem;
     
 }
+.nav-brnd-img{
+    width: 2.5rem;
+    padding-right: 5px;
+}
 /* using this to stop the effect of inbuilt selector,NOTE:-not using class */
 #titletop{
     color: #fff;
